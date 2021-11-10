@@ -220,7 +220,6 @@ table {
 }
 .shearch2 {
   position: absolute;
-
   margin-left: 20px;
   height: 50px;
   width: 50px;
@@ -449,6 +448,13 @@ input {
   color: red;
 }
 .img1Page5 {
-  width: 50%;
-  height: 50%;
+  margin-left: 25%;
+  width: 60%;
+  height: 60%;
+}
+.img1Page6 {
+  margin-top: 20vh;
+  margin-left: 25%;
+  width: 60%;
+  height: 60%;
 }
