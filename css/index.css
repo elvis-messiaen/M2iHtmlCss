@@ -458,3 +458,11 @@ input {
   width: 60%;
   height: 60%;
 }
+
+/*-----------------page7------------------*/
+.page7 {
+  padding-top: 10vh;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
