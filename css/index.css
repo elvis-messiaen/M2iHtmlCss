@@ -1,3 +1,454 @@
-.test {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ---------------------header-----------------------------*/
+.container {
+  margin-top: 25px;
+  margin-left: 25px;
+  display: flex;
+}
+.lienSite {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20vw;
+}
+.lienNav {
+  margin-right: 10px;
+  color: white;
+  size: 20px;
+  text-decoration: none;
+}
+.logoDroite {
+  margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.large {
+  margin-left: 5px;
+  width: 10px;
+  color: rgb(248, 246, 246);
+}
+.contactIcon {
+  margin-left: 5px;
+}
+
+.videoFond {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(./video/home.mp4) no-repeat;
+  background-size: cover;
+}
+.message {
+  margin-left: 15vh;
+  color: white;
+  font-size: 20px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.fondVideo {
+  z-index: 1;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+
+  background: #830f13;
+  background: -moz-linear-gradient(left, #830f13 0%, #5c3054 68%, #000445 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #830f13 0%,
+    #5c3054 68%,
+    #000445 100%
+  );
+  background: linear-gradient(to right, #830f13 0%, #5c3054 68%, #000445 100%);
+}
+/*----------------------------------pageOneMiddle---------------------*/
+
+.pageOneMiddle {
+  margin-top: 20vh;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.title {
+  font-size: 44px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  min-width: 50vh;
+}
+
+.contenant {
+  position: relative;
+}
+.shearch2 {
+  position: absolute;
+
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
   background-color: red;
+  border: 5px solid rgb(253, 5, 5);
+  border-radius: 50%;
+}
+.placeSearch {
+  margin-left: 35px;
+  margin-top: 15px;
+  height: 25px;
+  width: 25px;
+  z-index: 1;
+}
+
+.example {
+  margin-top: 2vh;
+  margin-right: 90vh;
+  font-size: 12px;
+}
+input {
+  border: white 2px solid;
+  background: transparent;
+  border-radius: 50px;
+  height: 3vw;
+  width: 125vh;
+}
+
+.noteAvies {
+  margin-top: 20vh;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.noteAvies {
+  display: flex;
+  margin-top: 20vh;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.sizeEtoile {
+  width: 20vh;
+}
+.avis {
+  margin-top: 1vh;
+  text-align: center;
+  color: white;
+  margin-bottom: 2vh;
+}
+.page2 {
+  background-color: #f8f8f8;
+  padding-top: 10vh;
+}
+.titleCenter {
+  text-align: center;
+  font-weight: bold;
+  color: #ce250b;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+/*----------------------cards------------------------------*/
+.cards {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+}
+.formatCard:hover {
+  background-color: #f0f1f5;
+}
+.formatCard {
+  background-color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 200px;
+  height: 250px;
+}
+.formatCard ul {
+  text-align: center;
+  padding-top: 3vh;
+  font-size: 20px;
+}
+.sizePicture {
+  padding-top: 3vh;
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+}
+
+/*-------------------page3----------------------------*/
+/* ededed */
+.page3 {
+  background-color: #ededed;
+  padding-top: 10vh;
+}
+.formatCard3 {
+  background-color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 200px;
+  height: 300px;
+}
+.formatCard3 ul {
+  text-align: center;
+  padding-top: 1vh;
+  font-size: 20px;
+}
+.titleCenter3 {
+  text-align: center;
+  font-weight: bold;
+  color: #020000;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+.sousTitle3 {
+  padding-top: 2vh;
+  text-align: center;
+  font-weight: bold;
+  color: #020000;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.formatCard3 p {
+  padding-top: 2vh;
+  color: red;
+}
+.formatCard ul {
+  font-weight: bold;
+}
+.sizePicture3 {
+  padding-top: 5vh;
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+}
+/*----------------------page4-----------------*/
+
+.page4 {
+  background-color: #f8f8f8;
+  padding-top: 15vh;
+  display: flex;
+}
+.img1Page4 {
+  padding: 10vh;
+  width: 65%;
+  height: 65%;
+}
+
+.imPage4 {
+  padding-top: 20vh;
+  color: red;
+}
+.taille {
+  font-size: 30px;
+  font-weight: bold;
+  font-weight: 900;
+  color: #020000;
+}
+.format {
+  display: flex;
+  justify-content: flex-start;
+}
+.format li {
+  margin-left: 2px;
+  margin: 5px 2px 1em 0;
+}
+.format li a {
+  min-height: 2.2em;
+  font-size: 11px;
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  border-radius: 30%;
+}
+.texteDescriptif p {
+  line-height: 160%;
+  color: #606060;
+}
+.buttonPlus {
+  margin-right: 15px;
+}
+.buttonPlusT {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  padding: 5px;
+  margin-top: 25px;
+  background-color: red;
+}
+.fullControl {
+  display: inline-block;
+}
+/*-----------------page5------------------*/
+
+.testFlex {
+  display: flex;
+  flex-direction: column;
+}
+.page5 {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+}
+.formatDroite {
+  display: flex;
+}
+.formatDroite li {
+  margin-left: 2px;
+  margin: 5px 2px 1em 0;
+}
+.formatDroite li a {
+  min-height: 2.2em;
+  font-size: 11px;
+  text-decoration: none;
+  color: red;
+  border: 1px solid red;
+  border-radius: 30%;
+}
+.imPage5 {
+  color: red;
+}
+.img1Page5 {
+  width: 50%;
+  height: 50%;
 }
