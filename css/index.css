@@ -466,3 +466,57 @@ input {
   display: flex;
   justify-content: center;
 }
+
+/*-----------------page8------------------*/
+.page8 {
+  margin-left: 5%;
+  padding-top: 10vh;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+}
+.colorTaille1 {
+  width: 45%;
+}
+.colorTaille2 {
+  width: 45%;
+}
+.colorTaille3 {
+  width: 10%;
+  height: 35vw;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+.texteEnDessous {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color: #aaaaaa;
+  font-weight: bold;
+}
+.imPage8 {
+  color: red;
+  padding-top: 5vh;
+}
+.taille8 {
+  font-size: 22px;
+  font-weight: bold;
+  font-weight: 900;
+  color: #020000;
+  padding-bottom: 5vh;
+}
+.sizePicture8,
+.imPage8,
+.taille8,
+.texteEnDessous {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.logoPlus {
+  width: 32px;
+  height: 32px;
+  padding-top: 200%;
+}
+.colorTaille3:hover {
+  background-color: #000578;
+}
